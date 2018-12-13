@@ -65,3 +65,24 @@
 % ** Treeshrew - specific scripts
 % -------------------------------------
 %
+% scene (empty)
+%
+% optics
+%   * ls_opticsTreeShrew
+%     generates treeshrew optics models that differ in PSF size, focal
+%     length, or pupil diameter and examines the effect of these parameters
+%     on the optical image of a test stimulus
+%
+% coneMosaic
+%   * ls_coneMosaicTreeShrew
+%     generates the default treeshrew cone mosaic and compares it
+%     (visually) to a published whole-mouted treeshrew retina image; also
+%     generates and visualizes a custom treeshrew mosaic 
+%
+%   * ls_coneMosaicAndPSF_TreeShrew_VS_Human
+%     co-visualizes the default cone mosaic and PSF for the treeshrew and
+%     for the human
+% 
+%   * ls_photopigments_TreeShrew_VS_Human
+%     examines the L-cone fundamentals of the threeshrew and compares it to
+%     the L-cone fundamental of the human
