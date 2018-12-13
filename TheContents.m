@@ -19,24 +19,28 @@
 % Scripts listing. The order that scripts are listed represents a good order 
 % that can be followed by someone new to ISETBio.
 %
-% ** Species-agnostic scripts
+% -------------------------------------
+% ** Species-agnostic scripts **
+% -------------------------------------
 %
-% 1. scene (empty)
+% scene (empty)
 %   * ls_sceneForStimulusOnDisplay 
 %     shows how to generate a Gabor scene and realize it on a display
 % 
+% -------------------------------------
 % ** Human - specific scripts
+% -------------------------------------
 %
-% 1. scene (empty)
+% scene (empty)
 %
-% 2. optics (empty)
+% optics (empty)
 %   
-% 3. coneMosaic
+% coneMosaic
 %   * ls_humanConeMosaicAndPSF
 %     covisualizes the default human cone mosaic and the default human PSF
 %     at different wavelengths
 %
-% X. recipes
+% recipes
 %   * ls_coneIsomerizationsFromRGBImageOnDisplay 
 %     generates a scene from a JPEG file, present it on display, computes
 %     cone excitations for human optics and mosaic (no eye movements) and
@@ -50,10 +54,14 @@
 %   * ls_conePhotocurrentsFromSceneOnDisplay
 %     generates a scene of a Gabor as realized on a display, generates a 
 %     single 300 msec - long fixational eye movement path, computes
-%     cone excitations for human optics and mosaic for 16 repetitions of the
-%     same eye movement path, and visualizes the following:
-%     - mosaic 2D response at peak response time for first 2 trials
+%     cone excitations for human optics and mosaic for 16 identical
+%     eye movement paths, and visualizes the following:
+%     - the mosaic 2D response at the peak response time for first 2 trials
 %     - the response of a single cone as a function of time for all trials 
 %     - the response of cones along the horizontal meridian at peak time
 %     for both isomerizations and photocurrents
+%
+% -------------------------------------
+% ** Treeshrew - specific scripts
+% -------------------------------------
 %
