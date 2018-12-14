@@ -23,15 +23,13 @@
 % ** Species-agnostic scripts **
 % -------------------------------------
 %
-% scene (empty)
+% scene
 %   * ls_sceneForStimulusOnDisplay 
 %     shows how to generate a Gabor scene and realize it on a display
 % 
 % -------------------------------------
 % ** Human - specific scripts
 % -------------------------------------
-%
-% scene (empty)
 %
 % optics (empty)
 %   
@@ -65,7 +63,6 @@
 % ** Treeshrew - specific scripts
 % -------------------------------------
 %
-% scene (empty)
 %
 % optics
 %   * ls_opticsTreeShrew
@@ -81,8 +78,9 @@
 %
 %   * ls_coneMosaicAndPSF_TreeShrew_VS_Human
 %     co-visualizes the default cone mosaic and PSF for the treeshrew and
-%     for the human
+%     for the human. Also demonstrates how the human PSF changes with pupil
+%     size and wavelength, whereas the current treeshrew PSF model does not
 % 
 %   * ls_photopigments_TreeShrew_VS_Human
-%     examines the L-cone fundamentals of the threeshrew and compares it to
-%     the L-cone fundamental of the human
+%     examines the L-cone spectral sensitivity of the threeshrew 
+%     and compares it to that of the human
