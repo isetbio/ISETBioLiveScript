@@ -70,6 +70,10 @@
 %     length, or pupil diameter and examines the effect of these parameters
 %     on the optical image of a test stimulus
 %
+%   * ls_optics_TreeShrew_VS_Human
+%     compares how the retinal irradiances for the same scene differ in the
+%     two models because of the different focal lengths in the two eyes
+%
 % coneMosaic
 %   * ls_coneMosaicTreeShrew
 %     generates the default treeshrew cone mosaic and compares it
