@@ -86,5 +86,6 @@
 %     size and wavelength, whereas the current treeshrew PSF model does not
 % 
 %   * ls_photopigments_TreeShrew_VS_Human
-%     examines the L-cone spectral sensitivity of the threeshrew 
-%     and compares it to that of the human
+%     examines the integrated L-cone efficiency of the threeshrew 
+%     and compares it to that of the human, all in the context of an
+%     equal-photon rate across wavelengths test scene
