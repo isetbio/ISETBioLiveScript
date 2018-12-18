@@ -35,12 +35,12 @@
 %   
 % coneMosaic
 %   * ls_humanConeMosaicAndPSF
-%     covisualizes the default human cone mosaic and the default human PSF
+%     co-visualizes the default human cone mosaic and the default human PSF
 %     at different wavelengths
 %
 % recipes
 %   * ls_coneIsomerizationsFromRGBImageOnDisplay 
-%     generates a scene from a JPEG file, present it on display, computes
+%     generates a scene from a JPEG file, presents it on display, computes
 %     cone excitations for human optics and mosaic (no eye movements) and
 %     visualizes the results.
 %
@@ -67,18 +67,21 @@
 % optics
 %   * ls_opticsTreeShrew
 %     generates treeshrew optics models that differ in PSF size, focal
-%     length, or pupil diameter and examines the effect of these parameters
-%     on the optical image of a test stimulus
+%     length, or pupil diameter and examines how these parameters
+%     affect the retinal image of a test stimulus
 %
 %   * ls_optics_TreeShrew_VS_Human
-%     compares how the retinal irradiances for the same scene differ in the
-%     two models because of the different focal lengths in the two eyes
+%     compares how the treeshrew and the human retinal irradiances to the 
+%     same scene differ because of the different focal lengths in the two eyes
 %
 % coneMosaic
 %   * ls_coneMosaicTreeShrew
 %     generates the default treeshrew cone mosaic and compares it
 %     (visually) to a published whole-mouted treeshrew retina image; also
-%     generates and visualizes a custom treeshrew mosaic 
+%     generates and visualizes a custom treeshrew; finally displays the
+%     cone absorbance spectra of the model together with the raw absorbance
+%     spectra measurements by Petry and Harosi (1989), which the model is 
+%     based on
 %
 %   * ls_coneMosaicAndPSF_TreeShrew_VS_Human
 %     co-visualizes the default cone mosaic and PSF for the treeshrew and
